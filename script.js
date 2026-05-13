@@ -23,7 +23,7 @@ function filtrarDados (dados){
 function estilizarMural (){
 body.className = "flex items-center justify-center px-5 pt-10";
 body.style.transition = "background-color 1.5s";
-main.classList.add ("columns-2", "md:columns-3", "gap-5", "*:mt-5"); // md = ajusta largura da tela para pc, e colums 2 padrão para mobile//
+main.classList.add ("columns-2", "md:columns-3", "gap-5", "*:mt-5"); // md = ajusta largura da tela para pc, e columns 2 padrão para mobile//
 }
 
 estilizarMural();
@@ -44,7 +44,7 @@ btnTema.addEventListener('click', () => {
     body.classList.toggle('bg-gray-950');
 
     if (body.classList.contains('bg-gray-950')) {
-        imgMoon.src = 'imagem/sun-solid-full.svg';
+        imgMoon.src = './imagem/sun-solid-full.svg';
     } else {
         imgMoon.src = './imagem/moon-solid.png';
     }
